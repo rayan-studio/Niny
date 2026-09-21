@@ -1,0 +1,16 @@
+[package]
+name = "Ninny"
+version = "0.1.0"
+edition = "2024"
+description = "Cross-platform IDE"
+
+[dependencies]
+pollster = "1.0.1"
+softbuffer = "0.4.8"
+wgpu = "30.0.1"
+winit = "0.29"
+window-shadows="0.2.2"
+image = "0.25.10"
+
+[build-dependencies]
+winres = "0.1"
